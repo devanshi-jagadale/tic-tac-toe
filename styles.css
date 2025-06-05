@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+.restart,.submit{
+    display:block;
+    height:60px;
+    width:200px;
+    margin:20px auto;
+    text-align: center;
+    border:2px solid #39443d;
+    padding:15px;
+    background-color: #c3d7cb;
+    font-size: 20px;
+    font-weight: bold;
+    color:#39443d;
+}
+
+.restart:hover,.submit:hover{
+    display:block;
+    height:60px;
+    width:200px;
+    margin:20px auto;
+    text-align: center;
+    border:2px solid #c3d7cb;
+    padding:15px;
+    background-color: #39443d;
+    font-size: 20px;
+    color:#c3d7cb;
+}
+
+.game {
+  display: none;
+}
+
+.restart {
+  display: none;
+}
+
+
+body{
+    background-color: #596869;
+    color:#e6efe6;
+    font-family: "Alumni Sans SC", sans-serif;
+    margin:auto;
+    font-size: 35px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.board {
+  width: 330px;
+  height: 330px;
+  border: 2px solid;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  gap: 0;
+}
+
+
+.board>button{
+    width:90%;
+    height:90%;
+    margin:0;
+    padding:0;
+    font-size: 40px;
+    color:#6c8976;
+}
+
+h1{
+    margin:2px;
+    padding:4px;
+    border-bottom:4px solid #39443d;
+    font-size: 70px;
+    background-color: #6c8976;
+}
+
+.turn{
+    font-size: 45px;
+    background-color: #596869;
+    border:0;
+}
+
+form{
+    padding:30px;
+    font-size: 50px;
+    padding-bottom:0;
+}
+
+input{
+    display:block;
+    margin:20px auto 0; 
+    padding-bottom:0;
+    height:50px;
+    width:300px;
+    text-align: center;
+    font-size: 20px;
+    color:#39443d;
+}
+
+input::placeholder{
+    text-align: center;
+    font-size: 18px;
+}
